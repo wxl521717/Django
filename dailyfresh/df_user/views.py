@@ -96,7 +96,11 @@ def site(request):
         user.upostcode=request.POST.get('upostcode')
         user.uphone=request.POST.get('uphone')
         user.save()
+<<<<<<< HEAD
     context={'title':'用户中心','user':user}
+=======
+    context={'title':'用户中心','user':user,'page_name':1}
+>>>>>>> dev
     return render(request,'df_user/user_center_site.html',context)
 
 

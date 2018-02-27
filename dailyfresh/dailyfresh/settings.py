@@ -38,6 +38,11 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'df_user',
+<<<<<<< HEAD
+=======
+    'df_goods',
+    'tinymce',
+>>>>>>> dev
 )
 
 MIDDLEWARE_CLASSES = (
@@ -109,3 +114,14 @@ STATICFILES_DIRS =[
     os.path.join(BASE_DIR,'static')
     
 ]
+<<<<<<< HEAD
+=======
+
+MEDIA_ROOT=os.path.join(BASE_DIR,'static')
+
+TINYMCE_DEFAULT_CONFIG = {
+    'theme': 'advanced',
+    'width': 600,
+    'height': 400,
+}
+>>>>>>> dev
